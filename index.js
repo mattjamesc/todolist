@@ -1,18 +1,22 @@
 function App(){
   const [todos, setTodos] = React.useState([
     {
-      text: 'learn react',
+      text: 'repair/reinforce smoke drums',
       isCompleted: false,
     },
     {
-      text: 'meet friend for lunch',
+      text: 'rig funnelator pump',
       isCompleted: false,
     },
     {
-      text: 'build todo app',
+      text: 'hang target painting',
+      isCompleted: false,
+    },
+    {
+      text: 'strike stage fans',
       isCompleted: false,
     }
-  ])
+  ]);
 
   return(
     <>
