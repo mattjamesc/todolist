@@ -10,7 +10,7 @@ body {
   }
   
   .app {
-    background: #209cee;
+    background: #0930db;
     padding: 30px;
     height: 100vh;
   }
@@ -21,6 +21,10 @@ body {
     padding: 5px;
     max-width: 400px;
   }
+  
+  .todo:hover {
+    background-color: dimgray;
+}
   
   .todo{
     background: #fff;
@@ -44,4 +48,17 @@ body {
     height: 2.25em;
     font-size: 24px;
   }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   
